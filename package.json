@@ -1,5 +1,5 @@
 {
-  "homepage": "https://heyhammadhere.github.io/app-crm",
+  "homepage": "/",
   "name": "app-crm",
   "version": "1.0.0",
   "private": true,
@@ -12,7 +12,7 @@
     "preview": "refine start",
     "refine": "refine",
     "test": "jest --passWithNoTests --runInBand",
-    "deploy": "gh-pages -d build"
+    "deploy": "npx gh-pages -d dist"
   },
   "dependencies": {
     "@ant-design/icons": "5.0.1",
